@@ -37,6 +37,7 @@ public class FormatDates {
         System.out.println(rightNow.format(format4));
 
         DateTimeFormatter format5 = DateTimeFormatter.ofPattern("h:mm 'on' dd-MMM-yyyy");
+        System.out.println(rightNow.format(format5));
 
     }
 }
